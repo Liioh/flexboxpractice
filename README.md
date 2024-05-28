@@ -19,7 +19,7 @@ Se enfoca en el uso de flexbox y distintos elementos, ofreciendo una experiencia
 + **Google Fonts:** Para fuentes personalizadas.
 
 ### Vista Previa del Proyecto
-![Demo](imagenes/pinteres.png)
+![Demo](imagenes/break.png)
 
 ### Contacto
 Si te gustaría invitarme a colaborar en un proyecto, escríbeme por [Linkedln](https://www.linkedin.com/in/liioh/).
