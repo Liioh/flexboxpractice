@@ -1,0 +1,66 @@
+*{
+    /*propiedades aplicables a todos los elementos de la pagina*/
+    padding: 0; /*relleno entre el contenido y el margen*/
+    margin: 0;
+    box-sizing: border-box;
+
+ 
+
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(246, 254, 24);
+}
+
+.main-image{
+    background: url("imagenes/fondo.gif");
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat; /*para no repetir imagen*/
+    width: 100%;
+    min-height: 100vh; /*altura minima de un elemento, se ajustara de acuerdo al contenido de la pantalla*/
+    /*VH viewport height*/
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.main-image h1{
+    font-size: 100px;
+    margin-bottom: 15px; /*1rem = 16px*/
+    /*text-decoration: line-through;*/
+}
+
+
+
+.main-image p{
+    font-size: 50px;
+    margin-bottom: 3rem;
+   
+}
+
+
+.main-image button{
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 1rem 2rem; /* padding: largo  ancho*/
+    text-transform: uppercase; /*todo lo cambia a mayusculas*/
+    font-weight: bold;
+}
+
+.lin{
+    text-decoration-line: none;
+    color: rgb(24, 109, 184);
+    font-size: 25px;
+}
+
+.mus{
+    position: fixed;
+}
+
